@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../cucumber-js-examples/examples"
+		}
+	],
+	"settings": {}
+}
