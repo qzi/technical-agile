@@ -8,7 +8,7 @@ Given("the price of a banana is 40c", function ( ) {
 });
 
 
-When("I checkout 1 banana", function () {
+When("I checkout {int} banana", function () {
            // Write code here that turns the phrase above into concrete actions
            this.count = 1 * this.count;
            console.log(this.count);

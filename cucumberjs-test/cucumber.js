@@ -1,4 +1,5 @@
 export default {
-    import: ['features/**/*.js'],
+    import: ['test/**/*.js'],
+    paths: ['test/**/*.feature'],
     publishQuiet: true
 }
