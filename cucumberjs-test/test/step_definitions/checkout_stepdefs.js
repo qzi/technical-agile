@@ -1,20 +1,21 @@
 import assert from "assert";
 import { Given, When, Then } from "@cucumber/cucumber";
 
-Given("the price of a banana is 40c", function ( ) {
+Given("the price of a banana is {int}c", function (price) {
            // Write code here that turns the phrase above into concrete actions
-           this.count = 40;
+           this.price = price;
 
 });
 
 
-When("I checkout {int} banana", function () {
+When("I checkout {int} banana", function (count) {
            // Write code here that turns the phrase above into concrete actions
-           this.count = 1 * this.count;
-           console.log(this.count);
+           this.price = count * this.price;
+           console.log(this.price);
 });
 
-Then("the total price should be 40c", function () {
-    assert.equal(this.count , 40);
+Then("the total price should be {int}c", function (price) {
+    assert.equal(this.price , price);
   }
 );
+
