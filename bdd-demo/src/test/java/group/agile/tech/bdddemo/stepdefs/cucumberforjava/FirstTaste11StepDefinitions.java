@@ -1,7 +1,6 @@
 package group.agile.tech.bdddemo.stepdefs.cucumberforjava;
 
 import group.agile.tech.bdddemo.common.cucumberforjava.Checkout;
-import io.cucumber.java.PendingException;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
