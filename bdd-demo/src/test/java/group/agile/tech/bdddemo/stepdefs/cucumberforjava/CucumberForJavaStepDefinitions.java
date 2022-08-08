@@ -11,8 +11,8 @@ import static org.junit.Assert.assertEquals;
 public class CucumberForJavaStepDefinitions {
 
 
-    Checkout checkout;
-    int bananaPrice = 0;
+//    Checkout checkout;
+//    int bananaPrice = 0;
 //
 //    @Given("^the price of a \"(.*?)\" is (\\d+)c$")
 //    public void thePriceOfAIsC(String name, int price) throws Throwable {
