@@ -20,7 +20,7 @@ When("I enter my passwrod correctly", function () {
 });
 
 When("I click on the button {string}", function (button) {
-  if (button == "login") {
+  if (button === "login") {
     this.isSubmit = true;
   } else {
     this.isSubmit = false;
