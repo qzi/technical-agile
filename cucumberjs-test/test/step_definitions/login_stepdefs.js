@@ -3,20 +3,20 @@ import { Given, When, Then } from "@cucumber/cucumber";
 import { expect }  from "chai";
 
 
-Given("I have previously created a username: {string}", function (username) {
+Given("I have previously created a username: {word}", function (username) {
   this.username = username;
 });
 
-Given("I have previously created a password: {string}", function (password) {
+Given("I have previously created a password: {word}", function (password) {
   this.password = password;
 });
 
 When("I enter my username correctly", function () {
-  assert.equal("username", this.username);
+  assert.equal("kay", this.username);
 });
 
 When("I enter my passwrod correctly", function () {
-  assert.equal("password", this.password);
+  assert.equal("okay", this.password);
 });
 
 When("I click on the button {string}", function (button) {
@@ -31,7 +31,6 @@ When("I click on the button {string}", function (button) {
 Then("I got a feedback {string}", function (expected) {
 
   if (this.isSubmit) {
-    // assert.equal("login successfully", expected);
     expect("login successfully").to.eql(expected);
   } else {
     console.log("login failed");
