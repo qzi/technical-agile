@@ -4,15 +4,15 @@ import group.agile.tech.bdddemo.common.cucumberforjava.Checkout;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+// import org.slf4j.Logger;
+// import org.slf4j.LoggerFactory;
 
 import static org.junit.Assert.assertEquals;
 
 
 public class CucumberDemoStepDefinitions {
 
-    private final Logger log = LoggerFactory.getLogger(CucumberDemoStepDefinitions.class);
+    // private final Logger log = LoggerFactory.getLogger(CucumberDemoStepDefinitions.class);
 
     Checkout checkout;
     int bananaPrice = 0;

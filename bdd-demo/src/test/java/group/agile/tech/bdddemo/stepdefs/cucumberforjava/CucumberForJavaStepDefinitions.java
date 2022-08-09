@@ -1,12 +1,12 @@
 package group.agile.tech.bdddemo.stepdefs.cucumberforjava;
 
-import group.agile.tech.bdddemo.common.cucumberforjava.Checkout;
-import io.cucumber.java.en.Given;
-import io.cucumber.java.en.Then;
-import io.cucumber.java.en.When;
+// import group.agile.tech.bdddemo.common.cucumberforjava.Checkout;
+// import io.cucumber.java.en.Given;
+// import io.cucumber.java.en.Then;
+// import io.cucumber.java.en.When;
 
 
-import static org.junit.Assert.assertEquals;
+// import static org.junit.Assert.assertEquals;
 
 public class CucumberForJavaStepDefinitions {
 
