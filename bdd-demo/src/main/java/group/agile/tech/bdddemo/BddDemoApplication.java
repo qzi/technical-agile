@@ -6,8 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class BddDemoApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(BddDemoApplication.class, args);
-	}
+  public static void main(String[] args) {
+    SpringApplication.run(BddDemoApplication.class, args);
+  }
 
 }

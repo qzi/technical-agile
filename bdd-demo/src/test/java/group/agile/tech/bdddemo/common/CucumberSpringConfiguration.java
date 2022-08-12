@@ -10,10 +10,11 @@ import org.springframework.boot.test.context.SpringBootTest;
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 public class CucumberSpringConfiguration {
 
-    private static final Logger logger = LoggerFactory.getLogger(CucumberSpringConfiguration.class);
+  private static final Logger logger = LoggerFactory.getLogger(CucumberSpringConfiguration.class);
 
-    @Before
-    public void setUp() {
-        logger.info("-------------- Spring Context Initialized For Executing Cucumber Tests --------------");
-    }
+  @Before
+  public void setUp() {
+    logger.info(
+        "-------------- Spring Context Initialized For Executing Cucumber Tests --------------");
+  }
 }

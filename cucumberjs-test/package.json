@@ -7,11 +7,11 @@
   "scripts": {
     "test": "cucumber-js"
   },
-
   "author": "Leon Qiu",
   "license": "MIT",
   "devDependencies": {
     "@cucumber/cucumber": "^8.5.0",
-    "chai": "*"
+    "chai": "*",
+    "eslint": "^8.21.0"
   }
 }
