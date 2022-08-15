@@ -5,11 +5,12 @@
   "description": "A simple example of a Cucumber-JS project using ESM",
   "type": "module",
   "scripts": {
-    "test": "cucumber-js"
+    "test": "cucumber-js -c cucumber.js"
   },
   "author": "Leon Qiu",
   "license": "MIT",
   "devDependencies": {
+
     "@cucumber/cucumber": "^8.5.0",
     "chai": "*",
     "eslint": "^8.21.0"

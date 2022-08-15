@@ -1,7 +1,7 @@
 import assert from "assert";
 import { Given, When, Then } from "@cucumber/cucumber";
 import { expect } from "chai";
-import { PasswordValidator } from "../../../index.js";
+import { PasswordValidator } from "../../../main/javascript/password_validator.js";
 
 {
   // ECMAScript 6 Test

@@ -27,4 +27,5 @@ public class CucumberDemoStepDefinitions {
   public void theTotalPriceShouldBeC(int total) throws Throwable {
     assertEquals(total, checkout.total());
   }
+
 }
