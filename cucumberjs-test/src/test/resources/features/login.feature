@@ -1,3 +1,6 @@
+# The AC of story
+# Develop the ac with tester, po and developers and make a agreement
+
 Feature: Landing in page
 
     Scenario: Login my account
