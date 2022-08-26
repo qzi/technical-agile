@@ -3,4 +3,5 @@ export default {
   paths: ["src/test/**/*.feature"],
   strict: true,
   publishQuiet: true,
+  forceExit: true
 };

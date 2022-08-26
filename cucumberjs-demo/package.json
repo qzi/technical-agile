@@ -1,0 +1,19 @@
+{
+  "name": "@cucumber/esm-example",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A simple example of a Cucumber-JS pro ject using ESM",
+  "type": "module",
+  "scripts": {
+    "help@cucumber": "cucumber-js --help",
+    "test@account": "cucumber-js -c cucumber.js --force-exit -t \"@account\" ",
+    "test": "cucumber-js -c cucumber.js --force-exit "
+  },
+  "author": "Leon Qiu",
+  "license": "MIT",
+  "devDependencies": {
+    "@cucumber/cucumber": "^8.5.2",
+    "chai": "*",
+    "eslint": "^8.21.0"
+  }
+}
