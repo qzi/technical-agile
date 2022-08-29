@@ -1,3 +1,3 @@
-# BDD Demo Using cucumber-js and typescript
+# BDD demo using cucumber-js
 
 A typescript sample of cucumber-js
