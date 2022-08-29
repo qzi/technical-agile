@@ -1,3 +1,3 @@
-# BDD Demo Using Cucumber.js
+# BDD Demo Using cucumber-js and typescript
 
-A javascript( es5 && es6 ) sample of cucumber.js using ESM
+A typescript sample of cucumber-js
