@@ -5,9 +5,9 @@
   "description": "A simple example of a Cucumber-JS pro ject using ESM",
   "type": "module",
   "scripts": {
-    "help@cucumber": "cucumber-js --help",
+    "cucumber": "cucumber-js -c cucumber.js ",
     "test@account": "cucumber-js -c cucumber.js --force-exit -t \"@account\" ",
-    "test": "cucumber-js -c cucumber.js --force-exit "
+    "test": "cucumber-js -c cucumber.js --force-exit src/test/**/*.feature"
   },
   "author": "Leon Qiu",
   "license": "MIT",

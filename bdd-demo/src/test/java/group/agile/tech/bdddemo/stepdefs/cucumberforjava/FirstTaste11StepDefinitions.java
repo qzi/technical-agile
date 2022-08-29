@@ -3,6 +3,7 @@ package group.agile.tech.bdddemo.stepdefs.cucumberforjava;
 import static org.junit.Assert.assertEquals;
 
 import group.agile.tech.bdddemo.common.cucumberforjava.Checkout;
+import io.cucumber.java.PendingException;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -20,11 +21,13 @@ public class FirstTaste11StepDefinitions {
   @When("^I checkout (\\d+) \"(.*?)\"$")
   public void icheckout(int itemCount, String itemName) throws Throwable {
     checkout = new Checkout();
-    checkout.add(itemCount, bananaPrice);
+     checkout.add(itemCount, bananaPrice);
+//    assertEquals(itemCount, 1);
   }
 
   @Then("^the total price should be (\\d+)c$")
   public void theTotalPriceShouldBeC(int total) throws Throwable {
-    assertEquals(total, checkout.total());
+//    assertEquals(total, 40);
+    throw new PendingException();
   }
 }

@@ -1,14 +1,13 @@
 import assert from "assert";
 import { Given, When, Then } from "@cucumber/cucumber";
 import { expect } from "chai";
-import { PasswordValidator } from "../../../main/javascript/password_validator.js";
+// import { PasswordValidator } from "../../../main/javascript/password_validator.js";
 
 {
 
   Given('I am in register page', () => {
     // Write code here that turns the phrase above into concrete actions
     console.log('I am registering a new account');
-
   });
 
   Given('I have provided below information to create an account', (table) => {
@@ -19,14 +18,14 @@ import { PasswordValidator } from "../../../main/javascript/password_validator.j
 
   When('I submit the details', () => {
     // Write code here that turns the phrase above into concrete actions
-    console.log('I submit the details');
+    // console.log('I submit the details');
+    return "pending";
   });
 
   Then('the registration should be successful', () => {
     // Write code here that turns the phrase above into concrete actions
-    console.log('I registred a new account already');
-
+    // console.log('I registred a new account already');
+    return "pending";
   });
-
 
 }
