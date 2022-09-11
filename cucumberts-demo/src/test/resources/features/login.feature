@@ -9,6 +9,6 @@ Feature: Landing in page
         When I enter my username correctly
         And I enter my passwrod correctly
         And I click on the button "login"
-        Then I got a feedback "login successfully"
+       Then I got a feedback "login successfully"
 
 

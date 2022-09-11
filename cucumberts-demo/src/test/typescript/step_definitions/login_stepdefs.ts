@@ -4,18 +4,17 @@ import { expect } from "chai";
 import { PasswordValidator } from "../../../main/typescript/password_validator";
 
 {
-  // ECMAScript 6 Test
   let username: String = "";
   let password: String = "";
   let isSubmit: Boolean = false;
   let passwordValidator = new PasswordValidator();
 
-  Given("I have previously created a username: {word}", (paramUsername) => {
+  Given("I have previously created a username: {word}", (paramUsername: string) => {
     username = paramUsername;
     console.log(username);
   });
 
-  Given("I have previously created a password: {word}", (password_param) => {
+  Given("I have previously created a password: {word}", (password_param: string) => {
     password = passwordValidator.verify(password_param);
   });
 
@@ -27,13 +26,13 @@ import { PasswordValidator } from "../../../main/typescript/password_validator";
     assert.equal("okay", password);
   });
 
-  When("I click on the button {string}", (button) => {
+  When("I click on the button {string}", (button: string) => {
     if (button === "login") {
       isSubmit = true;
     }
   });
 
-  Then("I got a feedback {string}", function (expected) {
+  Then("I got a feedback {string}", function (expected: string) {
     if (isSubmit) {
       expect("login successfully").to.eql(expected);
     } else {
@@ -41,7 +40,11 @@ import { PasswordValidator } from "../../../main/typescript/password_validator";
     }
   });
 
-  Given("I have deposited $(100|250) in my account", (amount) => {
+  Given("I have deposited $(100|250) in my account", (amount: number) => {
     assert.equal("100", amount);
+  });
+
+  Given("I do something", () => {
+    return "pending";
   });
 }

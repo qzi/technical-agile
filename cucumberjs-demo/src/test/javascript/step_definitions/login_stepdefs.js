@@ -3,11 +3,13 @@ import { Given, When, Then } from "@cucumber/cucumber";
 import { expect } from "chai";
 import { PasswordValidator } from "../../../main/javascript/password_validator.js";
 
+
 {
   let username = "";
   let password = "";
   let isSubmit = false;
   let passwordValidator = new PasswordValidator();
+
 
   Given("I have previously created a username: {word}", (paramUsername) => {
     username = paramUsername;

@@ -5,9 +5,7 @@ Feature: Checkout
     When I checkout <count> "banana"
     Then the total price should be <total>c
 
-    Examples:
+    Examples: 
       | count | total |
-      | 1     | 40    |
-      | 2     | 80    |
-
-
+      |     1 |    40 |
+      |     2 |    80 |

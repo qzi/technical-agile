@@ -1,3 +1,4 @@
+
 Feature: Checkout
 
 	Scenario: Checkout bananas
