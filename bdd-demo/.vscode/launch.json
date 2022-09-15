@@ -9,6 +9,37 @@
       "projectName": "bdd-demo",
       "args": "",
       "envFile": "${workspaceFolder}/.env"
+    },
+    {
+      "type": "java",
+      "name": "Launch BddDemoApplication",
+      "request": "launch",
+      "mainClass": "group.agile.tech.bdddemo.BddDemoApplication",
+      "projectName": "bdd-demo"
+    },
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "Launch Java Server",
+      "preLaunchTask": "run-server",
+      "mainClass": ""
+      // "stopOnEntry": true,
+    },
+    {
+      "type": "java",
+      "name": "Debug Mvn Remote Test",
+      "request": "attach",
+      "hostName": "localhost",
+      "port": 5005
+    },
+    {
+      "type": "java",
+      "name": "Debug (Attach) Bundle",
+      "request": "attach",
+      "hostName": "localhost",
+      "port": 5005,
+      "preLaunchTask": "run-server",
+      "postDebugTask": "stop-server"
     }
   ]
 }
