@@ -1,0 +1,7 @@
+{
+    "test-runner-for-cucumber": {
+        "tool": "cucumber-js",
+        "script": "npx cucumber-js -c cucumber.js src/test/**/*.feature",
+        "language": "javascript"
+    }
+}

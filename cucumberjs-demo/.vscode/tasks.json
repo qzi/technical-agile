@@ -1,0 +1,23 @@
+{
+    "tasks": [
+        {
+            "type": "npm",
+            "script": "test@account",
+            "problemMatcher": [],
+            "label": "npm: test@account",
+            "detail": "cucumber-js -c cucumber.js --force-exit -t \"@account\" ",
+            "group": {
+                "kind": "test",
+                "isDefault": true
+            }
+        },
+        {
+            "type": "npm",
+            "script": "test",
+            "group": "test",
+            "problemMatcher": [],
+            "label": "npm: test",
+            "detail": "cucumber-js -c cucumber.js --force-exit -t \"@account\"  "
+        }
+    ]
+}

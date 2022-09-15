@@ -1,0 +1,22 @@
+{
+    "java.configuration.updateBuildConfiguration": "interactive",
+    "java.checkstyle.configuration": "${workspaceFolder}/checkstyle.xml",
+    "java.format.settings.url": ".vscode/eclipse-java-google-style.xml",
+    "java.checkstyle.version": "10.3.2",
+    "cucumber.features": [
+        "src/test/**/*.feature",
+        "features/**/*.feature",
+        "tests/**/*.feature",
+        "*specs*/**/.feature"
+    ],
+    "cucumber.glue": [
+        "src/test/**/*.java",
+        "features/**/*.ts",
+        "features/**/*.tsx",
+        "features/**/*.php",
+        "features/**/*.py",
+        "tests/**/*.py",
+        "features/**/*.rb",
+        "*specs*/**/.cs"
+    ]
+}
